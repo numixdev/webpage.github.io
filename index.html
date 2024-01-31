@@ -1,13 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Simple Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <h1>Discord registration</h1>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Date of Birth Selection Menu</title>
+  <style>
+    /* Style the label */
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+
+    form {
+      margin: 0 auto;
+      width: 50%; /* Adjust the width as needed */
+    }
+
+
+
+  </style>
+  
 </head>
 <body>
-	<h1>Welcome to my website!</h1>
-	<p>This is a simple website created using HTML, CSS, and JavaScript.</p>
-	<button onclick="myFunction()">Click me</button>
-	<script src="script.js"></script>
+
+  <div class="slider-container">
+    </div>
+  
+  <center></center>
+  <script src="script.js"></script>
+  <h4>Please enter your phone number</h4>
+  <h1><input type="range" min="0" max="9999999999" value="1" oninput="var output = document.getElementById('output'); output.innerHTML = this.value;"></h1>
+  <h1><div id="output">1</div></h1>
+
+
+  <form>
+    <label for="day">Day:</label>
+    <select id="day" name="day">
+      <option value="17">17</option>
+       <option value="25">25</option>
+       <option value="4">4</option>
+       <option value="29">29</option>
+       <option value="15">15</option>
+       <option value="14">14</option>
+       <option value="6">6</option>
+       <option value="22">22</option>
+       <option value="1">1</option>
+       <option value="5">5</option>
+       <option value="19">19</option>
+       <option value="20">20</option>
+       <option value="11">11</option>
+       <option value="30">30</option>
+       <option value="27">27</option>
+       <option value="12">12</option>
+       <option value="31">31</option>
+       <option value="23">23</option>
+       <option value="24">24</option>
+       <option value="21">21</option>
+       <option value="10">10</option>
+       <option value="7">7</option>
+       <option value="26">26</option>
+       <option value="9">9</option>
+       <option value="8">8</option>
+       <option value="16">16</option>
+       <option value="18">18</option>
+       <option value="2">2</option>
+       <option value="28">28</option>
+       <option value="3">3</option>
+    </select>
+
+    <label for="month">Month:</label>
+    <select id="month" name="month">
+      <option value="1">April</option>
+      <option value="2">August</option>
+      <option value="3">December</option>
+      <option value="4">February</option>
+      <option value="5">January</option>
+      <option value="6">July</option>
+      <option value="7">June</option>
+      <option value="8">March</option>
+      <option value="9">May</option>
+      <option value="10">November</option>
+      <option value="11">October</option>
+      <option value="12">September</option>
+    </select>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year">
+      <option value="2024">MMXXIV</option>
+       <option value="2023">MMXXIII</option>
+       <option value="2022">MMXXII</option>
+       <option value="2021">MMXXI</option>
+       <option value="2020">MMXX</option>
+       <option value="2019">MMXIX</option>
+       <option value="2018">MMXVIII</option>
+       <option value="2017">MMXVII</option>
+       <option value="2016">MMXVI</option>
+       <option value="2015">MMXV</option>
+       <option value="2014">MMXIV</option>
+       <option value="2013">MMXIII</option>
+       <option value="2012">MMXII</option>
+       <option value="2011">MMXI</option>
+       <option value="2010">MXX</option>
+       <option value="2009">MCMIX</option>
+       <option value="2008">MCMXCVIII</option>
+       <option value="2007">MMVII</option>
+       <option value="2006">MMVI</option>
+       <option value="2005">MMV</option>
+       <option value="2004">MMIV</option>
+       <option value="2003">MMIII</option>
+       <option value="2002">MMII</option>
+       <option value="2001">MMI</option>
+       <option value="2000">MM</option>
+       <option value="1999">MCMXCIX</option>
+    </select>
+  </form>
+   
 </body>
+
+<style>
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* Style the select boxes */
+  select {
+    padding: 25px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+</style>
 </html>
